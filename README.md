@@ -67,7 +67,7 @@ transforms your source code/text into markdown-style blockquoted code
 >
 >```
 ### after i have learned Lesson 2 [the headache with google’s tweaked linux renamed to android]
-- there were issues with copied output in Part 1 —something [firefox, a clipboard and so on] had eaten whitespaces i guess; but because i lose my memory oftenly i cannot tell that was not my issue —when i myself have copied that line from this my github readme.md in Android a couple of days ago it has not produced correct markdown output [certainly]
+- there were issues with copied output in Part 1 —something [firefox, a clipboard and so on] had eaten whitespaces i guess; but because i lose my memory oftenly i cannot tell that was not my issue —when i myself have copied that line from this my github readme.md in Android a couple of days ago it has not produced correct markdown output [certainly][^1]
 - here is a code snippet from Lesson 1 written cleanly:
 > ```
 > #!/bin/sh
@@ -81,12 +81,12 @@ transforms your source code/text into markdown-style blockquoted code
 
 #### anyway here is how to make it working with Android
 - i use following tools in my Android systems:
-1. airTerm[^1]
-2. simpleBusyBox v.3 (busybox v1.24.2)[^2]
-3. total commander[^3]
-4. SD Maid[^4]
-5. QuickEdit[^5]
-6. jbak2 keyboard[^6] with my own layout which you may find in another my repository here @gitHub[^7]
+1. airTerm[^2]
+2. simpleBusyBox v.3 (busybox v1.24.2)[^3]
+3. total commander[^4]
+4. SD Maid[^5]
+5. QuickEdit[^6]
+6. jbak2 keyboard[^7] with my own layout which you may find in another my repository here @gitHub[^8]
 - #please note that my two file managers have different sets of features —e.g. tc cannot install apk files while SD Maid is quiet reckless (specifically with deleting images —Gallery shows broken links after removals)
 
 ###### A. i have found following requirement for script’s execution in Android
@@ -124,11 +124,12 @@ transforms your source code/text into markdown-style blockquoted code
 - then you would may need to rename other your files to `termination` after copying processed content of your source
 - there is backup [unprocessed] copy left behind —`termination.bak` [it would be overwritten @ next invocation of the script]
 
-[^1]: https://play.google.com/store/apps/details?id=com.myboyfriendisageek.airterm [i have found that most other terminal emulators are broken down to unusability; even this one does not allow multisessions hanging Android system (is valid at least for Jelly Bean)]
-[^2]: https://play.google.com/store/apps/details?id=org.galexander.busybox
-[^3]: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
-[^4]: https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander
-[^5]: https://play.google.com/store/apps/details?id=com.rhmsoft.edit
-[^6]: https://play.google.com/store/apps/details?id=com.jbak2.JbakKeyboard
-[^7]: https://github.com/irulanCorrino/kturtle-script-keyboard-layout-for-jbak2
+[^1]: several days after i have written this note i have found that github DOES work with BOTH 'spaced' `> ``` ` and 'solid' `>``` ` forms of my script’s output —but 'solid' form is displayed as broken until parced by an engine probably [anyhow it is very upsetting considering i have typical karhidish temperament]
+[^2]: https://play.google.com/store/apps/details?id=com.myboyfriendisageek.airterm [i have found that most other terminal emulators are broken down to unusability; even this one does not allow multisessions hanging Android system (is valid at least for Jelly Bean); oh ...i just have found it may not be used with Kit Kat (implications are really serious and my smartphone is even lagging now —AFTER an uninstall)]
+[^3]: https://play.google.com/store/apps/details?id=org.galexander.busybox
+[^4]: https://play.google.com/store/apps/details?id=eu.thedarken.sdm
+[^5]: https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander
+[^6]: https://play.google.com/store/apps/details?id=com.rhmsoft.edit
+[^7]: https://play.google.com/store/apps/details?id=com.jbak2.JbakKeyboard
+[^8]: https://github.com/irulanCorrino/kturtle-script-keyboard-layout-for-jbak2
 
